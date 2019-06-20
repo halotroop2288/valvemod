@@ -1,7 +1,10 @@
 package halotroop2288.valvemod.util.handlers;
 
 import halotroop2288.valvemod.util.IHasModel;
+import halotroop2288.valvemod.util.compat.OreDictionaryCompat;
+import halotroop2288.valvemod.world.ModWorldGen;
 import halotroop2288.valvemod.init.ModBlocks;
+import halotroop2288.valvemod.init.ModEntities;
 import halotroop2288.valvemod.init.ModItems;
 
 import net.minecraft.block.Block;
@@ -10,6 +13,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler
@@ -44,5 +48,12 @@ public class RegistryHandler
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void preInitRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+		ModEntities.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 }

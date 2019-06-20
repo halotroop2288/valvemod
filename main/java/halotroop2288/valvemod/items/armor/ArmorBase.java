@@ -16,7 +16,7 @@ public class ArmorBase extends ItemArmor implements IHasModel
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(Main.VALVE_TAB);
 		
 		ModItems.ITEMS.add(this);
 	}

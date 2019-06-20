@@ -1,0 +1,43 @@
+// Creative Tab(s)
+itemGroup.valve_tab=Valve Mod
+
+// Blocks
+tile.moon_rock_block.name=Moon Rock Block
+tile.weighted_cube_normal.name=Weighted Storage Cube
+tile.weighted_cube_companion.name=Weighted Companion Cube
+tile.energy_ball_launcher.name=High Energy Pellet Dispenser
+tile.energy_ball_catcher.name=High Energy Pellet Receptical
+
+// Items
+	// Misc
+item.moon_rock.name=Moon Rock
+item.moon_rock_ingot.name=Moon Rock Ingot
+item.moon_rock_dust.name=Moon Rock Dust 
+item.moon_rock.name=Moon Rock
+
+	// Tools / Weapons
+item.moon_rock_shovel.name=Moon Rock Shovel
+item.moon_rock_pickaxe.name=Moon Rock Pickaxe
+item.moon_rock_axe.name=Moon Rock Axe
+item.moon_rock_sword.name=Moon Rock Sword
+item.moon_rock_hoe.name=Moon Rock Hoe
+
+
+	// Records
+item.record_portal_procedural_jiggle_bone.name=Procedural Jiggle Bone Disc
+item.record_portal_self_esteem_fund.name=Self-Esteem Fund Disc
+item.record_portal_subject_name_here.name=Subject Name Here Disc
+item.record_portal_party_escort.name=Party Escort Disc
+item.record_portal_taste_of_blood.name=Taste of Blood Disc
+item.record_portal_android_hell.name=Android Hell Disc
+item.record_portal_4000_degrees_kelvin.name=4000 Degrees Kelvin Disc
+item.record_portal_stop_what_you_are_doing.name=Stop What You Are Doing Disc
+item.record_portal_no_cake_for_you.name=No Cake For You Disc
+item.record_portal_youre_not_a_good_person.name=You're Note a Good Person Disc
+item.record_portal_you_cant_escape.name=You Can't Escape Disc
+item.record_portal_still_alive.name=Still Alive Disc
+item.record_portal_still_alive_radio_loop.name=Still Alive (Radio Loop) Disc
+item.record_portal_want_you_gone.name=Want You Gone Disc
+
+// Entities
+entity.energy_ball.name=High Energy Pellet

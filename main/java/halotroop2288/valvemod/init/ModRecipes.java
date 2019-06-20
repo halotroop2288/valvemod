@@ -8,6 +8,6 @@ public class ModRecipes
 {
 	public static void init()
 	{
-		//GameRegistry.addSmelting(Blocks.OBSIDIAN, new ItemStack(ModItems.OBSIDIAN_INGOT, 1), 1.5f);
+		GameRegistry.addSmelting(ModItems.MOON_ROCK_DUST, new ItemStack(ModItems.MOON_ROCK_INGOT, 1), 1.5f);
 	}
 }

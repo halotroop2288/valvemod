@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "valvemod:items/records/record_portal"
+    }
+}
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/records/record_portal"
+    }
+}

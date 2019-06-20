@@ -34,17 +34,29 @@ public class ModItems {
 	
 		// Materials
 				// Tools
+	public static final ToolMaterial MATERIAL_MOON_ROCK = EnumHelper.addToolMaterial("material_moonrock", 1, 128, 4.0F, 1.0F, 20); // Moon Rocks
 	//public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1024, 8.5F, 3.0F, 10); // Ruby
 				// Armor
+	public static final ArmorMaterial ARMOR_MATERIAL_MOON_ROCK = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":moon_rock", 14,
+	new int[] {2, 7, 5, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F);  // Moon Rocks
 	//public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 14,
 	//new int[] {2, 7, 5, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F);  // Ruby
 	
 		// Items
+	public static final Item MOON_ROCK = new ItemBase("moon_rock"); // Moon Rock
+	public static final Item MOON_ROCK_DUST = new ItemBase("moon_rock_dust"); // Moon Rock Dust
+	public static final Item MOON_ROCK_INGOT = new ItemBase("moon_rock_ingot"); // Moon Rock Ingot
 	//public static final Item ITEM_NAME = new ItemType("item_name");
 	
 		// Tools
 				// Ruby
 	//public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
+				// Moon Rocks
+	public static final ItemSword MOON_ROCK_SWORD = new ToolSword("moon_rock_sword", MATERIAL_MOON_ROCK); // Moon Rock Sword
+	public static final ItemPickaxe MOON_ROCK_PICKAXE = new ToolPickaxe("moon_rock_pickaxe", MATERIAL_MOON_ROCK); // Moon Rock Pickaxe
+	public static final ItemAxe MOON_ROCK_AXE = new ToolAxe("moon_rock_axe", MATERIAL_MOON_ROCK); // Moon Rock Axe
+	public static final ItemSpade MOON_ROCK_SHOVEL = new ToolSpade("moon_rock_shovel", MATERIAL_MOON_ROCK); // Moon Rock Shovel
+	public static final ItemHoe MOON_ROCK_HOE = new ToolHoe("moon_rock_hoe", MATERIAL_MOON_ROCK); // Moon Rock Hoe
 	
 		// Armor
 				// Ruby
@@ -56,4 +68,20 @@ public class ModItems {
 		// Food
 	//public static final Item ROCK_CANDY = new FoodBase("rock_candy", 20, 2.4F, false);
 	//public static final Item ROCK_CANDY = new FoodEffectBase("rock_candy", 20, 2.4F, false, new PotionEffect(MobEffects.INSTANT_DAMAGE, 1, 1, false, false));
+	
+		// Records (Sounds will have to be provided by the player to avoid copyright issues)
+	public static final Item RECORD_PORTAL_PROCEDURAL_JIGGLE_BONE = new ItemBase("record_portal_procedural_jiggle_bone"); // Title Screen Music
+	public static final Item RECORD_PORTAL_SELF_ESTEEM_FUND = new ItemBase("record_portal_self_esteem_fund"); // In-game music 1
+	public static final Item RECORD_PORTAL_SUBJECT_NAME_HERE = new ItemBase("record_portal_subject_name_here"); // In-game music 2
+	public static final Item RECORD_PORTAL_PARTY_ESCORT = new ItemBase("record_portal_party_escort"); // In-game music 3
+	public static final Item RECORD_PORTAL_TASTE_OF_BLOOD = new ItemBase("record_portal_taste_of_blood"); // In-game music 4
+	public static final Item RECORD_PORTAL_ANDROID_HELL = new ItemBase("record_portal_android_hell"); // In-game music 5
+	public static final Item RECORD_PORTAL_4000_DEGREES_KELVIN = new ItemBase("record_portal_4000_degrees_kelvin"); // In-game music 6
+	public static final Item RECORD_PORTAL_STOP_WHAT_YOU_ARE_DOING = new ItemBase("record_portal_stop_what_you_are_doing"); // In-game music 7
+	public static final Item RECORD_PORTAL_NO_CAKE_FOR_YOU = new ItemBase("record_portal_no_cake_for_you"); // In-game music 8
+	public static final Item RECORD_PORTAL_YOURE_NOT_A_GOOD_PERSON = new ItemBase("record_portal_youre_not_a_good_person"); // In-game music 9
+	public static final Item RECORD_PORTAL_YOU_CANT_ESCAPE = new ItemBase("record_portal_you_cant_escape"); // In-game music 10
+	public static final Item RECORD_PORTAL_STILL_ALIVE = new ItemBase("record_portal_still_alive"); // End game music 1
+	public static final Item RECORD_PORTAL_STILL_ALIVE_RADIO_LOOP = new ItemBase("record_portal_still_alive_radio_loop"); // Radio loop
+	public static final Item RECORD_PORTAL_WANT_YOU_GONE = new ItemBase("record_portal_want_you_gone"); // End game music 2
 }
