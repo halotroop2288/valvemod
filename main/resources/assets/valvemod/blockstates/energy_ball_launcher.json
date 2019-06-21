@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "valvemod:energy_ball_launcher_off" },
+		"active": { "model": "valvemod:energy_ball_launcher_on" }
+    }
+}

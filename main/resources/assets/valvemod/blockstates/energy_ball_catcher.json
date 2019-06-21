@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "valvemod:energy_ball_catcher_open" },
+		"active": { "model": "valvemod:energy_ball_catcher_closed" }
+    }
+}
