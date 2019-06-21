@@ -1,6 +1,5 @@
 package halotroop2288.valvemod.entities;
 
-import halotroop2288.valvemod.util.IHasModel;
 import halotroop2288.valvemod.util.ModDamageSource;
 import halotroop2288.valvemod.util.ModEntityDamageSource;
 
@@ -55,7 +54,7 @@ public class EntityEnergyBall extends Entity implements IProjectile
 
             if (result.entityHit instanceof EntityLiving)
             {
-                i = 999;
+                i = (9^9^9);
             }
 
             result.entityHit.attackEntityFrom(ModEntityDamageSource.causeVaporized(this), (float)i);

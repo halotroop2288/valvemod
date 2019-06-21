@@ -1,6 +1,6 @@
 package halotroop2288.valvemod.util;
 
-import halotroop2288.valvemod.items.MusicDisc;
+import halotroop2288.valvemod.items.Record;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;

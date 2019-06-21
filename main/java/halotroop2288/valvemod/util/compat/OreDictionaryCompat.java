@@ -9,9 +9,9 @@ public class OreDictionaryCompat
 	public static void registerOres()
 	{
 					// Moon Rocks
-		OreDictionary.registerOre("blockMoonRock", ModBlocks.MOON_ROCK_BLOCK);
-		OreDictionary.registerOre("gemMoonRock", ModItems.MOON_ROCK);
-		OreDictionary.registerOre("dustMoonRock", ModItems.MOON_ROCK_DUST);
-		OreDictionary.registerOre("ingotMoonRock", ModItems.MOON_ROCK_INGOT);
+		OreDictionary.registerOre("blockMoon_Rock", ModBlocks.MOON_ROCK_BLOCK);
+		OreDictionary.registerOre("gemMoon_Rock", ModItems.MOON_ROCK);
+		OreDictionary.registerOre("dustMoon_Rock", ModItems.MOON_ROCK_DUST);
+		OreDictionary.registerOre("ingotMoon_Rock", ModItems.MOON_ROCK_INGOT);
 	}
 }
