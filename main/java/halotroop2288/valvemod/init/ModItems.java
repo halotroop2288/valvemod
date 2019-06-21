@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import halotroop2288.valvemod.items.ItemBase;
+import halotroop2288.valvemod.items.MusicDisc;
 import halotroop2288.valvemod.items.armor.ArmorBase;
 import halotroop2288.valvemod.items.food.FoodBase;
 import halotroop2288.valvemod.items.food.FoodEffectBase;
@@ -12,8 +13,9 @@ import halotroop2288.valvemod.items.tools.ToolHoe;
 import halotroop2288.valvemod.items.tools.ToolPickaxe;
 import halotroop2288.valvemod.items.tools.ToolSpade;
 import halotroop2288.valvemod.items.tools.ToolSword;
+import halotroop2288.valvemod.util.ModSoundEvent;
 import halotroop2288.valvemod.util.Reference;
-
+import halotroop2288.valvemod.util.handlers.SoundsHandler;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -27,6 +29,7 @@ import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
+import scala.tools.nsc.backend.icode.analysis.CopyPropagation.Record;
 
 public class ModItems {
 	
@@ -70,18 +73,18 @@ public class ModItems {
 	//public static final Item ROCK_CANDY = new FoodEffectBase("rock_candy", 20, 2.4F, false, new PotionEffect(MobEffects.INSTANT_DAMAGE, 1, 1, false, false));
 	
 		// Records (Sounds will have to be provided by the player to avoid copyright issues)
-	public static final Item RECORD_PORTAL_PROCEDURAL_JIGGLE_BONE = new ItemBase("record_portal_procedural_jiggle_bone"); // Title Screen Music
-	public static final Item RECORD_PORTAL_SELF_ESTEEM_FUND = new ItemBase("record_portal_self_esteem_fund"); // In-game music 1
-	public static final Item RECORD_PORTAL_SUBJECT_NAME_HERE = new ItemBase("record_portal_subject_name_here"); // In-game music 2
-	public static final Item RECORD_PORTAL_PARTY_ESCORT = new ItemBase("record_portal_party_escort"); // In-game music 3
-	public static final Item RECORD_PORTAL_TASTE_OF_BLOOD = new ItemBase("record_portal_taste_of_blood"); // In-game music 4
-	public static final Item RECORD_PORTAL_ANDROID_HELL = new ItemBase("record_portal_android_hell"); // In-game music 5
-	public static final Item RECORD_PORTAL_4000_DEGREES_KELVIN = new ItemBase("record_portal_4000_degrees_kelvin"); // In-game music 6
-	public static final Item RECORD_PORTAL_STOP_WHAT_YOU_ARE_DOING = new ItemBase("record_portal_stop_what_you_are_doing"); // In-game music 7
-	public static final Item RECORD_PORTAL_NO_CAKE_FOR_YOU = new ItemBase("record_portal_no_cake_for_you"); // In-game music 8
-	public static final Item RECORD_PORTAL_YOURE_NOT_A_GOOD_PERSON = new ItemBase("record_portal_youre_not_a_good_person"); // In-game music 9
-	public static final Item RECORD_PORTAL_YOU_CANT_ESCAPE = new ItemBase("record_portal_you_cant_escape"); // In-game music 10
-	public static final Item RECORD_PORTAL_STILL_ALIVE = new ItemBase("record_portal_still_alive"); // End game music 1
-	public static final Item RECORD_PORTAL_STILL_ALIVE_RADIO_LOOP = new ItemBase("record_portal_still_alive_radio_loop"); // Radio loop
-	public static final Item RECORD_PORTAL_WANT_YOU_GONE = new ItemBase("record_portal_want_you_gone"); // End game music 2
+	public static final Item RECORD_PORTAL_PROCEDURAL_JIGGLE_BONE = new MusicDisc("record_portal_procedural_jiggle_bone", SoundsHandler.PROCEDURAL_JIGGLE_BONE); // Title Screen Music
+	public static final Item RECORD_PORTAL_SELF_ESTEEM_FUND = new MusicDisc("record_portal_self_esteem_fund", SoundsHandler.SELF_ESTEEM_FUND); // In-game music 1
+	public static final Item RECORD_PORTAL_SUBJECT_NAME_HERE = new MusicDisc("record_portal_subject_name_here", SoundsHandler.SUBJECT_NAME_HERE); // In-game music 2
+	public static final Item RECORD_PORTAL_PARTY_ESCORT = new MusicDisc("record_portal_party_escort", SoundsHandler.PARTY_ESCORT); // In-game music 3
+	public static final Item RECORD_PORTAL_TASTE_OF_BLOOD = new MusicDisc("record_portal_taste_of_blood", SoundsHandler.TASTE_OF_BLOOD); // In-game music 4
+	public static final Item RECORD_PORTAL_ANDROID_HELL = new MusicDisc("record_portal_android_hell", SoundsHandler.ANDROID_HELL); // In-game music 5
+	public static final Item RECORD_PORTAL_4000_DEGREES_KELVIN = new MusicDisc("record_portal_4000_degrees_kelvin",SoundsHandler.FOUR_THOUSAND_DEGREES_KELVIN); // In-game music 6
+	public static final Item RECORD_PORTAL_STOP_WHAT_YOU_ARE_DOING = new MusicDisc("record_portal_stop_what_you_are_doing", SoundsHandler.STOP_WHAT_YOU_ARE_DOING); // In-game music 7
+	public static final Item RECORD_PORTAL_NO_CAKE_FOR_YOU = new MusicDisc("record_portal_no_cake_for_you", SoundsHandler.NO_CAKE_FOR_YOU); // In-game music 8
+	public static final Item RECORD_PORTAL_YOURE_NOT_A_GOOD_PERSON = new MusicDisc("record_portal_youre_not_a_good_person", SoundsHandler.YOURE_NOT_A_GOOD_PERSON); // In-game music 9
+	public static final Item RECORD_PORTAL_YOU_CANT_ESCAPE = new MusicDisc("record_portal_you_cant_escape", SoundsHandler.YOU_CANT_ESCAPE); // In-game music 10
+	public static final Item RECORD_PORTAL_STILL_ALIVE = new MusicDisc("record_portal_still_alive", SoundsHandler.STILL_ALIVE); // End game music 1
+	public static final Item RECORD_PORTAL_STILL_ALIVE_RADIO_LOOP = new MusicDisc("record_portal_still_alive_radio_loop", SoundsHandler.STILL_ALIVE_RADIO_LOOP); // Radio loop
+	public static final Item RECORD_PORTAL_WANT_YOU_GONE = new MusicDisc("record_portal_want_you_gone", SoundsHandler.WANT_YOU_GONE); // End game music 2
 }

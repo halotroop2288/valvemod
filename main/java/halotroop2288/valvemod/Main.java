@@ -2,8 +2,11 @@ package halotroop2288.valvemod;
 
 import halotroop2288.valvemod.proxy.CommonProxy;
 import halotroop2288.valvemod.tabs.ValveTab;
+import halotroop2288.valvemod.util.ModSoundEvent;
 import halotroop2288.valvemod.util.Reference;
 import halotroop2288.valvemod.util.compat.OreDictionaryCompat;
+import halotroop2288.valvemod.util.handlers.RegistryHandler;
+import halotroop2288.valvemod.util.handlers.SoundsHandler;
 import halotroop2288.valvemod.world.ModWorldGen;
 import halotroop2288.valvemod.init.ModRecipes;
 
@@ -31,12 +34,13 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
+		RegistryHandler.preInitRegistries();
 	}
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		OreDictionaryCompat.registerOres();
+		RegistryHandler.InitRegistries();
 	}
 	
 	@EventHandler

@@ -5,10 +5,9 @@ import halotroop2288.valvemod.util.ModDamageSource;
 import halotroop2288.valvemod.util.ModEntityDamageSource;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.IProjectile;
-import net.minecraft.entity.monster.EntityBlaze;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
@@ -54,9 +53,9 @@ public class EntityEnergyBall extends Entity implements IProjectile
         {
             int i = 0;
 
-            if (result.entityHit instanceof EntityBlaze)
+            if (result.entityHit instanceof EntityLiving)
             {
-                i = 3;
+                i = 999;
             }
 
             result.entityHit.attackEntityFrom(ModEntityDamageSource.causeVaporized(this), (float)i);

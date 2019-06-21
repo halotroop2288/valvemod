@@ -1,0 +1,86 @@
+{
+	"records.portal.procedural_jiggle_bone"
+	{
+		"category": "records",
+		"subtitle": "records.portal.procedural_jiggle_bone"
+		"sounds": [{ "name": "valvemod:records/portal/procedural_jiggle_bone", "stream": true}]
+	},
+	"records.portal.self_esteem_fund"
+	{
+		"category": "records",
+		"subtitle": "records.portal.self_esteem_fund"
+		"sounds": [{ "name": "valvemod:records/portal/self_esteem_fund", "stream": true}]
+	},
+	"records.portal.subject_name_here"
+	{
+		"category": "records",
+		"subtitle": "records.portal.subject_name_here"
+		"sounds": [{ "name": "valvemod:records/portal/subject_name_here", "stream": true}]
+	},
+	"records.portal.party_escort"
+	{
+		"category": "records",
+		"subtitle": "records.portal.party_escort"
+		"sounds": [{ "name": "valvemod:records/portal/party_escort", "stream": true}]
+	},
+	"records.portal.taste_of_blood"
+	{
+		"category": "records",
+		"subtitle": "records.portal.taste_of_blood"
+		"sounds": [{ "name": "valvemod:records/portal/taste_of_blood", "stream": true}]
+	},
+	"records.portal.android_hell"
+	{
+		"category": "records",
+		"subtitle": "records.portal.android_hell"
+		"sounds": [{ "name": "valvemod:records/portal/android_hell", "stream": true}]
+	},
+	"records.portal.4000_degrees_kelvin"
+	{
+		"category": "records",
+		"subtitle": "records.portal.4000_degrees_kelvin"
+		"sounds": [{ "name": "valvemod:records/portal/4000_degrees_kelvin", "stream": true}]
+	},
+	"records.portal.stop_what_you_are_doing"
+	{
+		"category": "records",
+		"subtitle": "records.portal.stop_what_you_are_doing"
+		"sounds": [{ "name": "valvemod:records/portal/stop_what_you_are_doing", "stream": true}]
+	},
+	"records.portal.no_cake_for_you"
+	{
+		"category": "records",
+		"subtitle": "records.portal.no_cake_for_you"
+		"sounds": [{ "name": "valvemod:records/portal/no_cake_for_you", "stream": true}]
+	},
+	"records.portal.youre_not_a_good_person"
+	{
+		"category": "records",
+		"subtitle": "records.portal.youre_not_a_good_person"
+		"sounds": [{ "name": "valvemod:records/portal/youre_not_a_good_person", "stream": true}]
+	},
+	"records.portal.portal.you_cant_escape"
+	{
+		"category": "records",
+		"subtitle": "records.portal.portal.you_cant_escape"
+		"sounds": [{ "name": "valvemod:records/portal/portal.you_cant_escape", "stream": true}]
+	},
+	"records.portal.stil_alive"
+	{
+		"category": "records",
+		"subtitle": "records.portal.stil_alive"
+		"sounds": [{ "name": "valvemod:records/portal/stil_alive", "stream": true}]
+	},
+	"records.portal.still_alive_radio_loop"
+	{
+		"category": "records",
+		"subtitle": "records.portal.still_alive_radio_loop"
+		"sounds": [{ "name": "valvemod:records/portal/still_alive_radio_loop", "stream": true}]
+	},
+	"records.portal.want_you_gone"
+	{
+		"category": "records",
+		"subtitle": "records.portal.want_you_gone"
+		"sounds": [{ "name": "valvemod:records/portal/want_you_gone", "stream": true}]
+	}
+}

@@ -56,4 +56,10 @@ public class RegistryHandler
 		ModEntities.registerEntities();
 		RenderHandler.registerEntityRenders();
 	}
+	
+	public static void InitRegistries()
+	{
+		SoundsHandler.registerSounds();
+		OreDictionaryCompat.registerOres();
+	}
 }
